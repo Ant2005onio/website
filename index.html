@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>First Real Web-site</title>
+	<link href="Web_Stylo.css" rel="stylesheet" type="text/css">
+	<Script Language="JavaScript">
+	function DameLaFechaHora() {
+  	var hora = new Date()
+  	var hrs = hora.getHours();
+  	var min = hora.getMinutes();
+  	var hoy = new Date();
+  	var m = new Array();
+  	var d = new Array()
+  	var an= hoy.getYear();
+  	m[0]="Enero";  m[1]="Febrero";  m[2]="Marzo";
+  	m[3]="Abril";   m[4]="Mayo";  m[5]="Junio";
+  	m[6]="Julio";	m[7]="Agosto";   m[8]="Septiembre";
+  	m[9]="Octubre";   m[10]="Noviembre"; m[11]="Diciembre";
+	
+	if (min<10){
+  	document.write("Son las "+hrs+":0"+min+" (");
+  	document.write(hoy.getDate());
+  	document.write(" de ");
+  	document.write(m[hoy.getMonth()]);
+  	document.write(")");
+	}
+	
+	else{
+		document.write("Son las "+hrs+":"+min+" (");
+  	document.write(hoy.getDate());
+  	document.write(" de ");
+  	document.write(m[hoy.getMonth()]);
+  	document.write(")");
+	}
+	
+	}
+</Script>
+</head>
+<body>
+
+<img src="Banner.webp" width="1700" height="300">
+<a href="Soporte.html" class="indice4"> Soporte </a>
+<a href="Pág_promo.html" class="indice3"> Promociones </a>
+<a href="Index.html" class="indice2"> Inicio </a>
+
+<br><br><br><br>
+
+<h1> Noticias diarias </h1>
+<left>
+<p>
+<a href="https://vandal.elespanol.com/noticia/1350758554/diablo-4-supuestamente-filtra-su-fecha-de-lanzamiento-en-la-tienda-de-xbox/"><img src="20221271305157_1.jpg.webp" width="450" height="320" align="left"></a>Diablo 4 llegará a PC, PlayStation 5, Xbox Series X/S, PlayStation 4 y Xbox One el 5 de junio de 2023. Al menos, eso es lo que dice el usuario de Twitter Aggiornamenti Lumia, un habitual filtrador que recoge sus informaciones analizando el back end de las tiendas digitales de Xbox y Windows 10/11. Ni Blizzard Entertainment ni Microsoft se han pronunciado sobre esta filtración.El mencionado usuario explica que el juego se lanzará el lunes 5 de junio a las 23:00, lo que dependiendo de la zona horaria supondrá un estreno el 6 de junio. Habrá tres ediciones distintas, al menos en Xbox: Standard Edition, Digital Deluxe Edition y Ultimate Edition. Eso sí, se desconocen sus contenidos. El título ocupará 80 GB en el almacenamiento de la consola, al menos antes de la previsible actualización de lanzamiento.
+
+La información de Aggiornamenti Lumia contradice la publicada por Windows Central a principios de noviembre. La cabecera especializada en las novedades de Microsoft y de Xbox aseguraba que el juego se lanzará en abril. Siempre según ese medio, la fecha de lanzamiento se anunciaría este mes, y habrá una beta cerrada en febrero a la que podrán acceder aquellos que reserven el juego.
+</p>
+</left>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+
+<h1> Compradores del mes </h1>
+
+<br><br>
+
+<div class="caja">
+
+<div class="Empleado1">
+<h2 class="titulo_lamina">  </h2>
+<a href="https://www.youtube.com/@Manutegaming">
+<img src="descarga (3).jpeg" width="200" height="200">
+</a>
+</div>
+
+<div class="lamina2">
+<h2 class="titulo_lamina"> </h2>
+<a href="https://www.youtube.com/@IlloJuan_">
+<img src="descarga (4).jpeg" width="200" height="200">
+</a>
+</div>
+
+<div class="lamina3">
+<h2 class="titulo_lamina"> </h2>
+<a href="https://www.youtube.com/@TheWildProject">
+<img src="descarga (5).jpeg" width="200" height="200">
+</a>
+</div>
+
+<div class="lamina4">
+<h2 class="titulo_lamina"> </h2>
+<a href="https://www.youtube.com/channel/UCJirVLggnKmNw2IuZUuD4Rg/videos?app=desktop">
+<img src="descarga (6).jpeg" width="200" height="200">
+</a>
+</div>
+
+<div class="lamina5">
+<h2 class="titulo_lamina"> </h2>
+<a href="https://www.youtube.com/@Mayichi">
+<img src="descarga (7).jpeg" width="200" height="200">
+</a>
+</div>
+
+<div class="lamina6">
+<h2 class="titulo_lamina"> </h2>
+<a href="https://www.youtube.com/@vegetta777">
+<img src="descarga (8).jpeg" width="200" height="200">
+</a>
+</div>
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<hr>
+
+<br>
+
+<center>
+<h2 class="hora">
+<script>
+DameLaFechaHora();
+</script>
+</center>
+
+</body>
+
+</html>

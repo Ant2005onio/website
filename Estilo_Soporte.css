@@ -1,0 +1,93 @@
+.indice3{
+width :200px;
+height :70px;
+background :#9C76B9;
+color :white;
+font-size :30px;
+text-align: center;
+float: left;
+line-height: 60px;
+font-family: 'Lilita One', cursive;
+}
+
+.indice4{
+width :200px;
+height :70px;
+background :#9C76B9;
+color :white;
+font-size :30px;
+text-align: center;
+float: left;
+position: relative;
+right: 8px;
+line-height: 60px;
+font-family: 'Lilita One', cursive;
+}
+
+.banner {
+	position: relative;
+	height: 50%;
+	width: 100%;
+}
+
+.tabla{
+	position: relative;
+	height:400px;
+	width:100%;
+	color: white;
+}
+
+.imagenes1{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+div{
+	color: black;
+}
+
+.mapa{
+	position: relative;
+	width: 50%;
+}
+
+.formulario{
+	position: relative;
+	width: 50%;
+	height: 100%;
+	left: 50px
+}
+
+a{
+	color: blue;
+}
+
+.GameStop{
+	position: relative;
+	left: 1000
+}
+.indice1{
+width :170px;
+height :70px;
+background :#9C76B9;
+color :white;
+font-size :30px;
+text-align: center;
+float: right;
+line-height: 60px;
+font-family: 'Lilita One', cursive;
+}
+
+.indice2{
+width :170px;
+height :70px;
+background :#9C76B9;
+color :white;
+font-size :30px;
+text-align: center;
+float: right;
+line-height: 60px;
+font-family: 'Lilita One', cursive;
+left:30
+}
